@@ -19,3 +19,11 @@ result = (f"{bin(int(mac_list[0],16))[2:]}"
 
 print(result)
 
+
+####
+
+result2 = (f"{int(mac_list[0],16):08b}"
+           f"{int(mac_list[1],16):08b}"
+           f"{int(mac_list[2],16):08b}")
+           
+print(result2)
